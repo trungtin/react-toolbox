@@ -1,8 +1,8 @@
 $theme-building: false !default;
 
 @if $theme-building != true {
-  @import "./colors";
+  @import "./_colors";
 }
 
-@import "./globals";
-@import "./mixins";
+@import "./_globals";
+@import "./_mixins";

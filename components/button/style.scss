@@ -1,6 +1,6 @@
-@import "../base";
-@import "../mixins";
-@import "./config";
+@import "../_base";
+@import "../_mixins";
+@import "./_config";
 
 %button {
   @include typo-button();

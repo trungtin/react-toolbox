@@ -1,12 +1,12 @@
-@import "../globals";
-@import "../mixins";
+@import "../_globals";
+@import "../_mixins";
 
 .editor {
   position: relative;
 
   :global {
     @import "~codemirror/lib/codemirror";
-    @import "one-dark";
-    @import "custom";
+    @import "_one-dark";
+    @import "_custom";
   }
 }
